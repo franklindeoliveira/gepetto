@@ -1,0 +1,585 @@
+/* INI - Componente Painel */
+.painel {
+    background-color: rgb(244,209,86);
+    border: none;
+    box-shadow: 1px 1px 1px #000;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    max-width: 335px;
+    border-radius: 5px;
+}
+
+.painel h3 {
+    text-transform: capitalize;
+    margin: 5px 0px 10px 0px;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 5px;
+}
+
+.painel img {
+    width: 1000px;
+    border-radius: 5px;
+}
+
+.painel figcaption {
+    margin: 15px 0;
+}
+
+.painel-fullwidth {    
+    max-width: 710px;
+}
+/* FIM - Componente Painel */
+
+main {
+    border-radius: 5px;
+}
+
+.transparente {
+    margin: 5px 0px;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    max-width: 100%;
+    z-index: -1;
+}
+
+body * {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+header, main, footer {
+    padding: 10px;
+}
+
+header {
+    padding-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+body {
+    background-color: #4CAF50;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+main, footer {
+    background-color: rgba(255,255,255,.5);
+}
+
+.menu-opcoes ul li {
+	display: inline-block;
+	margin: 5px;
+	text-align: center;
+}
+
+.menu-opcoes button {
+    color: #1390A0;
+    font-family: 'Amatic SC', cursive;
+    font-size: 15px !important;
+}
+
+.menu-opcoes {
+	text-align: center;  
+    text-transform: uppercase;
+    display: inline-block;
+/*    width: 68%;*/
+}
+
+header, main, .container {
+	max-width: 940px;
+}
+
+header, .container {
+	margin: 0 auto;
+}
+
+main {
+    margin: 10px auto;
+}
+
+section.carrossel-imagens img {
+    max-width: 100%;
+}
+
+section.carrossel-imagens {
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(49, 113, 52);
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+html  {
+    min-height: 100%;
+}
+
+footer .container {
+    position: relative;
+}
+
+.social a {
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+    text-indent: -9999px;
+    margin-left: 10px;
+}
+
+.social {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.social li {
+    display: inline-block;
+}
+
+.social .youtube {
+    background-image: url(../img/youtube.svg);
+}
+
+.social .facebook {
+    background-image: url(../img/facebook.svg);
+}
+
+.logoHeader {
+    width: 40%;
+}
+
+.logoFooter {
+    max-width: 80px;
+}
+
+section {
+    margin: 15px 0px;
+    margin-top: 0px;
+}
+
+section h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.casa-curumim {
+    margin-bottom: 10px;
+}
+
+.lista-email input {
+    min-width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.lista-email {
+    background-color: rgb(244,209,86);
+    padding: 10px;
+    border-radius: 5px;
+    min-height: auto;
+}
+
+.sobre-nos img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.sobre-nos {
+    text-align: center;
+    clear: both;
+}
+
+.sobre-nos img {
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.sobre-nos figcaption {
+    margin-top: 5px;
+}
+
+.sobre-nos figure {
+    background-color: rgb(244,209,86);
+    border: none;
+    box-shadow: 1px 1px 1px #000;
+}
+
+.sobre-nos h3 {
+    font-weight: bold;
+    text-shadow: 1px 1px 3px #fff;
+}
+
+.contato textarea {
+    width: 100%;
+    box-sizing: border-box;
+    height: 100px;
+    border-radius: 5px;
+    resize: none;
+}
+
+section img {
+    border-radius: 5px;
+}
+
+.sobre-nos figure {
+    margin-bottom: 10px;
+}
+
+.sobre-nos figure p {
+    margin-bottom: 10px;
+}
+
+.sobre-nossas-oficinas p {
+    margin-bottom: 10px;
+}
+
+.sobre-nossas-oficinas img {
+    float: none;
+    max-width: 100%;
+}
+
+.sobre-nossas-oficinas > ul {
+    float: none;
+    max-width: 100%;
+}
+
+.sobre-nossas-oficinas ul {
+    list-style: inside;
+}
+
+.sobre-nossas-oficinas ul:nth-child(1) {
+    list-style: none;
+    margin-left: 10px;
+}
+
+.tipos-brincadeiras img {
+    width: 100%;
+}
+
+header, main {
+    max-width: 90%;
+}
+
+.tipos-brincadeiras section {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.tipos-brincadeiras {
+    text-align: center;
+}
+
+.lista-email {
+    text-align: center;
+    margin: auto;
+    max-width: 500px;
+}
+
+.sobre-nos figure {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+    max-width: 290px;
+}
+
+.contato {
+    text-align: center;
+}
+
+.contato div {
+    margin: 15px 0;
+}
+
+@media (min-width: 940px) {
+    header, main {
+        width: 940px;
+    }
+}
+
+header {
+    text-align: center;
+}
+
+@media (min-width: 310px) {
+    .tipos-brincadeiras section {
+        width: 310px;
+    }
+    .leituras section {
+        width: 310px;
+    }
+}
+
+.galeria-fotos {
+    text-align: center;
+}
+
+.galeria-fotos img {
+    vertical-align: middle;
+}
+
+.galeria-fotos a {
+    text-decoration: none;
+    width: 200px;
+    display: inline-block;
+    margin: 2px 2px;
+}
+
+.contato .lista-email, .contato .redes-sociais{
+    display: inline-block;
+    min-width: 40%;
+    vertical-align: top;
+}
+
+.contato .redes-sociais img {
+    max-width: 15%;
+}
+
+.redes-sociais div img, .redes-sociais div p{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.redes-sociais div p {
+    width: 50%;
+}
+
+.lista-email p, .redes-sociais p {
+    margin-bottom: 15px;
+}
+
+.redes-sociais div {
+    margin-bottom: 15px;
+}
+
+.contato div {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.redes-sociais a {
+    text-decoration: none;
+}
+
+.redes-sociais {
+    min-height: auto;
+}
+
+.locais-oficinas {
+    text-align: center;
+}
+
+section blockcote {
+    display: inline-block;
+    border: 2px dotted #fff;
+    max-width: 270px;
+    margin: 5px;
+    vertical-align: top;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+section.depoimentos blockcote p {
+    margin-bottom: 10px;
+}
+
+.menu-opcoes button {
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #ffff00;
+    font-size: 68%;
+    padding: 1px 6px;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.menu-opcoes button.verde {
+    background-color: #1BC012;
+}
+
+.menu-opcoes button.amarelo {
+    background-color: #F3D82D;
+}
+
+.menu-opcoes button.laranja {
+    background-color: #F34F2D;
+}
+
+.menu-opcoes button.roxo {
+    background-color: #552DA6;
+}
+
+.menu-opcoes li a {
+    text-decoration: none;
+}
+
+header h1, header nav {
+    vertical-align: middle;
+}
+
+@media(min-width: 600px) {
+    .logoHeader {
+        max-width: 217px;
+    }
+}
+
+@media(min-width: 670px) {
+    .menu-opcoes {
+        width: 100%;
+    }
+    
+    .menu-opcoes button {
+        font-size: 100%;
+        padding: 1px 20px;
+    }
+}
+
+@media(min-width: 693px) {
+    .painel {
+        min-height: 642px;
+    }
+    .locais-oficinas .painel {
+        min-height: 442px;
+    }
+    .painel {
+        min-height: 0;
+    }
+}
+
+@media(min-width: 530px) {
+    h2 {
+        font-size: 45px;
+    }
+    
+    h3 {
+        font-size: 25px;
+    }
+    
+    .menu-opcoes button {
+        font-size: 20px !important;
+    }
+}
+
+.menu-opcoes button:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 20px #ffff00;
+    -webkit-transition: box-shadow 0.5s; /* Safari */
+    transition: box-shadow 0.5s;
+    
+}
+
+.floral-left, .floral-right {
+    max-width: 30%;
+}
+
+section.leituras ol {
+    list-style: decimal;
+}
+
+section.leituras ol li {
+    margin: 15px 20px;
+}
+
+.lacosDeEncantamento strong {
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.lacosDeEncantamento span {
+    font-style: italic;
+}
+
+.lacosDeEncantamento {
+    text-align: center;
+}
+
+section.leituras section {
+    display: inline-block;
+}
+
+section.leituras {
+    text-align: center;
+}
+
+.oficinas {
+    text-align: center;
+}
+
+@media(min-width: 645px) {
+    .lista-emails, .redes-sociais {
+        min-height: 270px;
+    }
+}
+
+@media(min-width: 800px) {
+    .carrossel-imagens {
+        width: 40%;
+        display: inline-block;
+        margin: 0 4%;
+    }
+}
+
+@media(min-width: 812px) {
+    .sobre-nossas-oficinas p {
+        margin-bottom: 10px;
+    }
+
+    .sobre-nossas-oficinas img {
+        float: left;
+        margin: 10px;
+        max-width: 45%;
+        text-align: center;
+    }
+
+    .sobre-nossas-oficinas > ul {
+        max-width: 45%;
+        float: right;
+    }
+
+    .sobre-nossas-oficinas ul {
+        list-style: inside;
+    }
+
+    .sobre-nossas-oficinas ul:nth-child(1) {
+        list-style: none;
+        margin-left: 10px;
+    }
+}
+
+@media (min-width: 950px) {
+    h2 {
+        font-size: 36px;
+    }
+}
