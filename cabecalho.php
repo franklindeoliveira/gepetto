@@ -37,7 +37,7 @@
             </li>
             <?php } else { ?>
             <li>
-                <a href="sobre">
+                <a href="artes">
                     <button class="verde">Artes</button>
                 </a>
             </li>
