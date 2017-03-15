@@ -31,7 +31,7 @@
             <?php } ?>
             <?php if (!is_null($sobre)) { ?>
             <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                <a itemprop="item" href="sobre">
+                <a itemprop="item" href="artes">
                     <button itemprop="name" class="verde">Artes</button>
                 </a>
             </li>
@@ -41,8 +41,8 @@
                     <button class="verde">Artes</button>
                 </a>
             </li>
-            <!--
             <?php } ?>
+            <!--
             <?php if (!is_null($brincadeiras)) { ?>
             <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
                 <a itemprop="item" href="brincadeiras">
