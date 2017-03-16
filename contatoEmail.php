@@ -1,6 +1,6 @@
 <?php
 
-  $para = "lacosdeencantamento@gmail.com";
+  $para = "gepetto.art.br@gmail.com";
   $assunto = $_POST['assunto'];
 
   $nome = $_POST['nome'];
@@ -14,7 +14,7 @@
   $mensagem .= "<br>  <strong>Mensagem: </strong>".$mensagemUsuario;
 
   $headers =  "Content-Type:text/html; charset=UTF-8\n";
-  $headers .= "From: Lacos de Encantamento - Contato<sistema@dominio.com.br>\n";
+  $headers .= "From: Gepetto Marcenaria - Contato<sistema@dominio.com.br>\n";
   $headers .= "X-Sender:  <sistema@dominio.com.br>\n";
   $headers .= "X-Mailer: PHP  v".phpversion()."\n";
   $headers .= "X-IP:  ".$_SERVER['REMOTE_ADDR']."\n";

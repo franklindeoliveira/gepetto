@@ -19,98 +19,42 @@
             <?php if (!is_null($oficinas)) { ?>
             <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
                 <a itemprop="item" href="brinquedos">
-                    <button itemprop="name" class="laranja">Brinquedos</button>
+                    <button itemprop="name" class="marrom">Brinquedos</button>
                 </a>
             </li>
             <?php } else { ?>
             <li>
                 <a href="brinquedos">
-                    <button class="laranja">Brinquedos</button>
+                    <button class="marrom">Brinquedos</button>
                 </a>
             </li>
             <?php } ?>
             <?php if (!is_null($sobre)) { ?>
             <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
                 <a itemprop="item" href="artes">
-                    <button itemprop="name" class="verde">Artes</button>
+                    <button itemprop="name" class="amarelo">Artes</button>
                 </a>
             </li>
             <?php } else { ?>
             <li>
                 <a href="artes">
-                    <button class="verde">Artes</button>
+                    <button class="amarelo">Artes</button>
                 </a>
             </li>
-            <?php } ?>
-            <!--
-            <?php if (!is_null($brincadeiras)) { ?>
-            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                <a itemprop="item" href="brincadeiras">
-                    <button itemprop="name" class="roxo">Brincadeiras</button>
-                </a>
-            </li>
-            <?php } else { ?>
-            <li>
-                <a href="brincadeiras">
-                    <button class="roxo">Brincadeiras</button>
-                </a>
-            </li>
-            -->
             <?php } ?>
             <?php if (!is_null($contato)) { ?>
             <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
                 <a itemprop="item" href="contato">
-                    <button itemprop="name" class="laranja">Contato</button>
+                    <button itemprop="name" class="marrom">Contato</button>
                 </a>
             </li>
             <?php } else { ?>
             <li>
                 <a href="contato">
-                    <button class="laranja">Contato</button>
+                    <button class="marrom">Contato</button>
                 </a>
             </li>
             <?php } ?>
-            <!--
-            <?php if (!is_null($fotos)) { ?>
-            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                <a itemprop="item" href="galeria-de-fotos">
-                    <button itemprop="name" class="amarelo">Galeria de Fotos</button>
-                </a>
-            </li>
-            <?php } else { ?>
-            <li>
-                <a href="galeria-de-fotos">
-                    <button class="amarelo">Galeria de Fotos</button>
-                </a>
-            </li>
-            <?php } ?>
-            <?php if (!is_null($depoimentos)) { ?>
-            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                <a itemprop="item" href="depoimentos">
-                    <button itemprop="name" class="verde">Depoimentos</button>
-                </a>
-            </li>
-            <?php } else { ?>
-            <li>
-                <a href="depoimentos">
-                    <button class="verde">Depoimentos</button>
-                </a>
-            </li>
-            <?php } ?>
-            <?php if (!is_null($leituras)) { ?>
-            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                <a itemprop="item" href="leituras">
-                    <button itemprop="name" class="roxo">Leituras</button>
-                </a>
-            </li>
-            <?php } else { ?>
-            <li>
-                <a href="leituras">
-                    <button class="roxo">Leituras</button>
-                </a>
-            </li>
-            <?php } ?>
-            -->
         </ul>
     </nav>
 </header>

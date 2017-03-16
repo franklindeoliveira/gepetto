@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>Contato | Laços de Encantamento</title>
-    <meta name="description" content="Entre em contato conosco para maiores informações sobre nossas oficinas e venha brincar com a gente!">
+    <meta name="description" content="Entre em contato conosco para maiores informações sobre nossos brinquedos e artes em madeira!">
     <?php include("head.php"); ?>
 </head>
 <body>

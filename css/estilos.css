@@ -1,3 +1,42 @@
+/* INI - Fonts */
+@font-face {
+    font-family: GepettoFontRegular;
+    src: url(../fonts/SFCompactRounded-Regular.otf);
+}
+@font-face {
+    font-family: GepettoFontBlack;
+    src: url(../fonts/SFCompactRounded-Black.otf);
+}
+@font-face {
+    font-family: GepettoFontBold;
+    src: url(../fonts/SFCompactRounded-Bold.otf);
+}
+@font-face {
+    font-family: GepettoFontHeavy;
+    src: url(../fonts/SFCompactRounded-Heavy.otf);
+}
+@font-face {
+    font-family: GepettoFontLight;
+    src: url(../fonts/SFCompactRounded-Light.otf);
+}
+@font-face {
+    font-family: GepettoFontMedium;
+    src: url(../fonts/SFCompactRounded-Medium.otf);
+}
+@font-face {
+    font-family: GepettoFontSemibold;
+    src: url(../fonts/SFCompactRounded-Semibold.otf);
+}
+@font-face {
+    font-family: GepettoFontThin;
+    src: url(../fonts/SFCompactRounded-Thin.otf);
+}
+@font-face {
+    font-family: GepettoFontUltralight;
+    src: url(../fonts/SFCompactRounded-Ultralight.otf);
+}
+/* FIM - Fonts */
+
 /* INI - Componente Painel */
 .painel {
     background-color: rgb(244,209,86);
@@ -51,18 +90,17 @@ h1 {
 }
 
 body * {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'GepettoFontUltralight', sans-serif;
 }
 
 h2 {
-    font-family: 'Amatic SC', cursive;
+    font-family: 'GepettoFontUltralight', cursive;
     font-size: 30px;
-    text-transform: uppercase;
     background-color: rgba(255, 255, 255, 0.3);
 }
 
 h3 {
-    font-family: 'Amatic SC', cursive;
+    font-family: 'GepettoFontUltralight', cursive;
     font-size: 20px;
 }
 
@@ -103,8 +141,8 @@ main, footer {
 
 .menu-opcoes button {
     color: #1390A0;
-    font-family: 'Amatic SC', cursive;
-    font-size: 15px !important;
+    font-family: 'GepettoFontUltralight', cursive;
+    font-size: 20px !important;
 }
 
 .menu-opcoes {
@@ -323,23 +361,8 @@ header, main {
     margin: 15px 0;
 }
 
-@media (min-width: 940px) {
-    header, main {
-        width: 940px;
-    }
-}
-
 header {
     text-align: center;
-}
-
-@media (min-width: 310px) {
-    .tipos-brincadeiras section {
-        width: 310px;
-    }
-    .leituras section {
-        width: 310px;
-    }
 }
 
 .galeria-fotos {
@@ -425,20 +448,12 @@ section.depoimentos blockcote p {
     text-shadow: 1px 1px 2px #000;
 }
 
-.menu-opcoes button.verde {
-    background-color: #1BC012;
-}
-
 .menu-opcoes button.amarelo {
     background-color: #F3D82D;
 }
 
-.menu-opcoes button.laranja {
-    background-color: #F34F2D;
-}
-
-.menu-opcoes button.roxo {
-    background-color: #552DA6;
+.menu-opcoes button.marrom {
+    background-color: #783018;
 }
 
 .menu-opcoes li a {
@@ -447,49 +462,6 @@ section.depoimentos blockcote p {
 
 header h1, header nav {
     vertical-align: middle;
-}
-
-@media(min-width: 600px) {
-    .logoHeader {
-        max-width: 217px;
-    }
-}
-
-@media(min-width: 670px) {
-    .menu-opcoes {
-        width: 100%;
-    }
-    
-    .menu-opcoes button {
-        font-size: 100%;
-        padding: 1px 20px;
-    }
-}
-
-@media(min-width: 693px) {
-    .painel {
-        min-height: 642px;
-    }
-    .locais-oficinas .painel {
-        min-height: 442px;
-    }
-    .painel {
-        min-height: 0;
-    }
-}
-
-@media(min-width: 530px) {
-    h2 {
-        font-size: 45px;
-    }
-    
-    h3 {
-        font-size: 25px;
-    }
-    
-    .menu-opcoes button {
-        font-size: 20px !important;
-    }
 }
 
 .menu-opcoes button:hover {
@@ -578,8 +550,41 @@ section.leituras {
     }
 }
 
-@media (min-width: 950px) {
-    h2 {
-        font-size: 36px;
+@media (min-width: 310px) {
+    .tipos-brincadeiras section {
+        width: 310px;
+    }
+    .leituras section {
+        width: 310px;
+    }
+}
+
+@media(min-width: 600px) {
+    .logoHeader {
+        max-width: 217px;
+    }
+}
+
+@media(min-width: 670px) {
+    .menu-opcoes {
+        width: 100%;
+    }
+}
+
+@media(min-width: 693px) {
+    .painel {
+        min-height: 642px;
+    }
+    .locais-oficinas .painel {
+        min-height: 442px;
+    }
+    .painel {
+        min-height: 0;
+    }
+}
+
+@media (min-width: 940px) {
+    header, main {
+        width: 940px;
     }
 }

@@ -19,13 +19,13 @@
             <div class="jcarousel">
                 <ul>
                     <li>
-                        <img src="img/carrossel1.jpg" alt="Carrossel imagem 1">
+                        <img src="img/brinquedo.png" alt="Brinquedo 1">
                     </li>
                     <li>
-                        <img src="img/carrossel2.jpg" alt="Carrossel imagem 2">
+                        <img src="img/brinquedo.png" alt="Brinquedo 2">
                     </li>
                     <li>
-                        <img src="img/carrossel3.jpg" alt="Carrossel imagem 3">
+                        <img src="img/brinquedo.png" alt="Brinquedo 3">
                     </li>
                 </ul>
             </div>
@@ -35,13 +35,13 @@
             <div class="jcarousel">
                 <ul>
                     <li>
-                        <img src="img/carrossel1.jpg" alt="Carrossel imagem 1">
+                        <img src="img/arte.png" alt="Arte 1">
                     </li>
                     <li>
-                        <img src="img/carrossel2.jpg" alt="Carrossel imagem 2">
+                        <img src="img/arte.png" alt="Arte 2">
                     </li>
                     <li>
-                        <img src="img/carrossel3.jpg" alt="Carrossel imagem 3">
+                        <img src="img/arte.png" alt="Arte 3">
                     </li>
                 </ul>
             </div>
