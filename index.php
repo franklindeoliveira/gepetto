@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>Gepetto Marcenaria: Brinquedos e Artes de Madeira</title>
-    <meta name="description" content="<strong>Laços de Encantamento</strong> é uma proposta de oficinas de brincar para bebês de 3 meses à 1 ano.">
+    <meta name="description" content="<strong>Gepetto Marcenaria</strong> é uma marcenaria especializada em de <strong>Brinquedos de Madeira</strong>.">
     <?php include("head.php"); ?>
 	<link rel="stylesheet" href="css/carrossel.css">
 </head>
@@ -12,7 +12,9 @@
     <main>
         <section class="lacosDeEncantamento">
             <h2>Gepetto Marcenaria</h2>
-            <p><strong>Gepetto Marcenaria</strong> é ...</p>
+            <p><strong>Gepetto Marcenaria</strong> é uma marcenaria especializada em <strong>Brinquedos de Madeira</strong>.</p>
+            <p>Também possui uma linha de <strong>Artes de Madeira</strong> de pequeno porte.</p>
+            <p>Possui como principais características a qualidade, segurança e um toque de personalização em seus produtos.</p>
         </section>
         <section class="carrossel-imagens">
             <h2>Brinquedos de Madeira</h2>

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>Brinquedos de Madeira | Gepetto Marcenaria</title>
-    <!-- <meta name="description" content="Conheça um pouco sobre nós e nosso trabalho."> -->
+    <meta name="description" content="Brinquedos de Madeira com qualidade, segurança e um toque de personalização.">
     <?php include("head.php"); ?>
 </head>
 <body>
@@ -11,22 +11,22 @@
     <main>
         <section class="tipos-brincadeiras">
             <h2>Brinquedos de Madeira</h2>
-            <section class="massagem-corporal">
+            <section>
                 <figure class="painel">
                     <h3>Brinquedo 1</h3>
-                    <img src="img/brinquedo.png" alt="Massagem Corporal">
+                    <img src="img/brinquedo.png" alt="Brinquedo 1">
                 </figure>
             </section>
-            <section class="massagem-corporal">
+            <section>
                 <figure class="painel">
                     <h3>Brinquedo 2</h3>
-                    <img src="img/brinquedo.png" alt="Massagem Corporal">
+                    <img src="img/brinquedo.png" alt="Brinquedo 2">
                 </figure>
             </section>
-            <section class="massagem-corporal">
+            <section>
                 <figure class="painel">
                     <h3>Brinquedo 3</h3>
-                    <img src="img/brinquedo.png" alt="Massagem Corporal">
+                    <img src="img/brinquedo.png" alt="Brinquedo 3">
                 </figure>
             </section>
         </section>

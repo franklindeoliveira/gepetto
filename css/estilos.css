@@ -230,6 +230,8 @@ section {
 section h2 {
     margin-top: 30px;
     margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .casa-curumim {
@@ -443,7 +445,7 @@ section.depoimentos blockcote p {
     border-radius: 5px;
     box-shadow: 0px 0px 10px #ffff00;
     font-size: 68%;
-    padding: 1px 6px;
+    padding: 2px 12px;
     color: #fff;
     text-shadow: 1px 1px 2px #000;
 }

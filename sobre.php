@@ -3,7 +3,6 @@
 <html lang="en">
 <head>
     <title>Sobre | Laços de Encantamento</title>
-    <meta name="description" content="Conheça um pouco sobre nós e nosso trabalho.">
     <?php include("head.php"); ?>
 </head>
 <body>
