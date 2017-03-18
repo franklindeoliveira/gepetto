@@ -14,7 +14,7 @@
             <h2>Gepetto Marcenaria</h2>
             <p>Marcenaria especializada em <strong>Brinquedos de Madeira</strong>.</p>
             <p>Também possuímos uma linha de <strong>Artes de Madeira</strong> de pequeno porte.</p>
-            <p>Primamos pela qualidade e segurança dos nossos produtos, sempre com um toque de personalização.</p>
+            <p>Primamos pela <strong>qualidade</strong> e <strong>segurança</strong> dos nossos produtos, sempre com um toque de <strong>personalização</strong>.</p>
         </section>
         <section class="carrossel-imagens">
             <h2>Brinquedos de Madeira</h2>
