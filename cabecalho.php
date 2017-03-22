@@ -42,16 +42,42 @@
                 </a>
             </li>
             <?php } ?>
+            <?php if (!is_null($sobre)) { ?>
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                <a itemprop="item" href="artes">
+                    <button itemprop="name" class="marrom">Projetos</button>
+                </a>
+            </li>
+            <?php } else { ?>
+            <li>
+                <a href="projetos">
+                    <button class="marrom">Projetos</button>
+                </a>
+            </li>
+            <?php } ?>
             <?php if (!is_null($contato)) { ?>
             <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
                 <a itemprop="item" href="contato">
-                    <button itemprop="name" class="marrom">Contato</button>
+                    <button itemprop="name" class="amarelo">Contato</button>
                 </a>
             </li>
             <?php } else { ?>
             <li>
                 <a href="contato">
-                    <button class="marrom">Contato</button>
+                    <button class="amarelo">Contato</button>
+                </a>
+            </li>
+            <?php } ?>
+            <?php if (!is_null($contato)) { ?>
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                <a itemprop="item" href="sobre">
+                    <button itemprop="name" class="marrom">Sobre</button>
+                </a>
+            </li>
+            <?php } else { ?>
+            <li>
+                <a href="sobre">
+                    <button class="marrom">Sobre</button>
                 </a>
             </li>
             <?php } ?>

@@ -11,15 +11,10 @@
     <?php include("cabecalho.php"); ?>
     <main>
         <section class="lacosDeEncantamento">
-            <h2>Sobre a Marcenaria</h2>
-            <p>Marcenaria especializada em <strong>Brinquedos de Madeira</strong>.</p>
-            <p>Também possuímos uma linha de <strong>Artes de Madeira</strong> de pequeno porte.</p>
-            <p>Primamos pela <strong>qualidade</strong> e <strong>segurança</strong> dos nossos produtos, sempre com um toque de <strong>personalização</strong>.</p>
-        </section>
-        <section class="lacosDeEncantamento">
-            <h2>Sobre mim</h2>
-            <img src="img/sobre-franklin.jpg">
-            <p>Oi.</p>
+            <h2>Projetos</h2>
+            <p>Possui um projeto ou idéia e gostaria de concretizá-los?</p>
+            <p>Nós iremos te ajudar!</p>
+            <p>Projetos sobmedida e personalizável de acordo com o seu gosto!</p>
         </section>
     </main>
     <?php include("rodape.php"); ?>
